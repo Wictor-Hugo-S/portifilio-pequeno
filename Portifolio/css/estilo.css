@@ -1,0 +1,891 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Sriracha';
+}
+
+html,
+body {
+
+	height: 100%;
+
+}
+
+body {
+	position: relative;
+	overflow-x: hidden;
+
+}
+
+.clear {
+	clear: both;
+}
+
+p {
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 300;
+	color: #0c0b12 !important;
+}
+
+.informações h1 {
+	font-family: 'Dancing Script', cursive;
+}
+
+aside {
+	background-color: #7932a8;
+	display: block;
+	width: 25%;
+	height: 100%;
+	position: fixed;
+}
+
+.posicao {
+	position: relative;
+	top: 10%;
+	left: -5%;
+
+
+}
+
+.posicao img {
+
+	border-width: 6px;
+	border-color: rgb(120, 120, 120, 0.6);
+	background-origin: padding-box;
+	border-style: solid;
+	display: none;
+	width: 200px !important;
+	height: 200px !important;
+	border-radius: 100% !important;
+	position: relative;
+	top: 0;
+	left: 5%;
+}
+
+nav ul {
+	flex-direction: column !important;
+	margin-top: 80px;
+	margin: 80px 0 !important;
+
+}
+
+nav li {}
+
+
+nav li a {
+	text-align: center !important;
+	color: white !important;
+	text-transform: uppercase !important;
+	font-size: 1.0rem;
+
+
+}
+
+#navbarNav .navbar-nav :hover .nav-link {
+	color: #837687 !important;
+
+}
+
+nav .navbar-brand {
+	display: none !important;
+	font-family: 'Dancing Script', cursive;
+	color: white !important;
+	font-size: 1.5rem !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+	color: #0c024a !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover,
+#mainNav .navbar-nav .nav-item .nav-link:active {
+	color: #0c024a;
+}
+
+::selection {
+
+	background: #a872b0;
+}
+
+section.sobre {
+
+
+	width: 75%;
+	height: 100%;
+	position: relative;
+	top: 0;
+	left: 25%;
+
+
+}
+
+.sobre .informações {
+
+	padding: 130px 6%;
+
+}
+
+.informações h1 {
+
+	font-size: 4.0rem;
+	font-style: italic;
+	font-weight: bold;
+	margin-left: -10px;
+
+}
+
+.informações h1::after {
+	content: "HUGO";
+	color: #723480;
+	padding-left: 15px;
+
+
+
+}
+
+.img-perfil {}
+
+.img-perfil img {
+	border-width: 6px;
+	border-color: rgb(120, 120, 120, 0.6);
+	background-origin: padding-box;
+	border-style: solid;
+	display: none;
+	width: 200px !important;
+	height: 200px !important;
+	border-radius: 100% !important;
+	position: relative;
+	top: 0;
+	left: 20%;
+
+
+
+}
+
+.informações img {
+	width: 30px;
+	height: 30px;
+	margin-top: -10px;
+	margin-left: 5px;
+}
+
+.informações p a {
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: #050a36 !important;
+	font-style: italic;
+	font-family: normal !important;
+
+
+}
+
+.informações p {
+	opacity: 0.9;
+
+	width: 100%;
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: #0c0b12 !important;
+	font-style: italic;
+	font-family: 'Roboto', sans-serif !important;
+
+}
+
+.informações p:last-child {
+	width: 100%;
+	font-size: 1.3rem;
+	font-weight: bold;
+	font-style: italic;
+
+
+
+}
+.informações span{
+	font-size: 1.3rem;
+	font-weight: bold;
+	font-style: italic;
+	color: #7932a8;
+}
+.informações a {
+	text-decoration: none;
+}
+
+.img-sociais {
+	margin-top: -120px;
+	margin-left: 25px;
+
+	padding: 20px 3%;
+
+
+}
+
+.img-sociais .social1 .fab {
+
+
+	width: 40px !important;
+	height: 40px !important;
+
+
+
+}
+
+.img-sociais .social1 {
+	width: 50px !important;
+	height: 50px !important;
+
+	display: inline-flex;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	margin-right: 25px;
+
+	background-color: #7932a8;
+	padding: 19px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 100%;
+
+
+
+}
+
+.img-sociais :hover {
+	background-color: #050a36 !important;
+
+
+
+}
+
+.social2 {
+
+	border-radius: 100%;
+	margin-left: 10px;
+}
+
+
+.social3 {
+	margin-left: 10px;
+}
+
+hr {
+
+	width: 100% !important;
+	margin-top: 3rem !important;
+	margin-bottom: 3rem !important;
+	border: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+/* experiencias*/
+section.exp {
+
+
+
+	padding: 40px 4%;
+	width: 75%;
+	height: auto;
+	position: relative;
+	top: 0;
+	left: 25%;
+
+
+}
+
+.exp span,
+.educacao span {
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	opacity: 0.9 !important;
+	color: #7932a8 !important;
+
+}
+
+
+.exp h2 {
+
+	font-size: 2.2rem;
+	font-weight: bold !important;
+	font-style: italic
+}
+
+.exp p {
+
+	opacity: 0.9;
+	width: 100% !important;
+	font-size: 1.3rem;
+	font-weight: bold;
+	font-style: italic;
+	color: #0c0b12 !important;
+	margin-top: 25px;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.exp h4 {
+	opacity: 0.7;
+	opacity: 0.5;
+	margin-top: 20px;
+	font-size: 1.4rem;
+	font-weight: normal;
+	font-style: italic;
+}
+
+/* educacao*/
+section.educacao {
+
+	background-color: #f7f8fa;
+	padding: 40px 4%;
+	width: 75%;
+	height: auto;
+	position: relative;
+	top: 0;
+	left: 25%;
+}
+
+.educacao h2 {
+	text-transform: uppercase;
+	font-size: 2.2rem;
+	font-weight: bold;
+	font-style: italic
+}
+
+.educacao p {
+	opacity: 0.9;
+	width: 100%;
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-style: italic;
+	color: rgb(100, 100, 100) !important;
+
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.educacao h4 {
+	opacity: 0.5;
+	margin-top: 20px;
+	font-size: 1.3rem;
+	font-weight: normal;
+	font-style: italic;
+}
+
+/* skiils*/
+section.skiils {
+
+	background-color: #f7f8fa;
+	padding: 40px 4%;
+	width: 75%;
+	height: auto;
+	position: relative;
+	top: 0;
+	left: 25%;
+
+
+}
+
+.skiils h2 {
+	font-size: 2.6rem;
+	font-weight: bold;
+	font-style: italic
+}
+
+.skiils h3 {
+	opacity: 0.9;
+	width: 100%;
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-style: italic;
+	color: rgb(100, 100, 100) !important;
+
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.lingua {
+	margin-top: 40px;
+
+	padding: 0 2%;
+
+}
+
+.lingua img {
+	opacity: 0.7;
+	width: 50px;
+	height: 50px;
+
+}
+
+.lingua a {
+	cursor: initial;
+}
+
+.lingua {
+	margin-left: -18px;
+}
+
+
+
+.trabalho {
+	margin-top: 30px;
+	margin-left: 5px;
+
+}
+
+.trabalho h3 {
+	opacity: 0.5;
+	margin-top: 20px;
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: bold;
+	color: black !important;
+	font-size: 1.6rem;
+
+}
+
+.trabalho ul {
+
+	list-style-type: none;
+}
+
+.trabalho ul img {
+	width: 15px;
+	height: 15px;
+
+}
+
+.trabalho li {
+
+	padding-left: 5px;
+	margin-left: 15px;
+	margin-top: -21px;
+	opacity: 0.9;
+	width: 100%;
+	font-size: 1.0rem;
+	font-weight: bold;
+	font-style: italic;
+	color: rgb(100, 100, 100) !important;
+
+	font-family: 'Roboto', sans-serif !important;
+}
+
+/* projetos*/
+section.projeto {
+
+	background-color: #f7f8fa;
+	padding: 40px 4%;
+	width: 75%;
+	height: auto;
+	position: relative;
+	top: 0;
+	left: 25%;
+}
+
+.projeto h2 {
+	font-size: 2.6rem;
+	font-weight: bold;
+	font-style: italic;
+	text-transform: uppercase;
+
+}
+
+.projeto h3 {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+	opacity: 0.5;
+
+
+}
+
+.projeto #carouselExampleFade img {
+	z-index: 1 !important;
+
+	width: 100% !important;
+	height: 450px !important;
+}
+
+.carousel-control-prev-icon {
+	background-color: purple !important;
+}
+
+.carousel-control-next-icon {
+	background-color: purple !important;
+
+}
+
+/* responsivo*/
+
+
+@media screen and (max-width: 991.0px) {
+	aside {
+
+		display: none;
+		width: 100%;
+		height: 0;
+		position: fixed;
+		z-index: 9999;
+	}
+
+	.posicao {
+		display: none;
+
+
+	}
+
+	.posicao img {
+		display: none;
+	}
+
+	.navbar-toggler {
+		display: block !important;
+	}
+
+	nav {
+
+		background-color: #7932a8 !important;
+		z-index: 9999 !important;
+
+
+	}
+
+	nav ul {
+		display: inline-block;
+		display: flex !important;
+		margin: 10px 0 0 0 !important;
+
+
+	}
+
+	nav li {}
+
+	nav li a {
+		color: black;
+		text-transform: uppercase;
+		text-align: initial !important;
+
+	}
+
+	nav .navbar-brand {
+		display: block !important;
+	}
+
+	section.sobre {
+
+		background-color: #f7f8fa;
+		position: initial;
+		width: auto;
+		height: auto;
+		margin-left: -5%;
+		padding: 60px 2%;
+
+	}
+
+	.informações p {
+		line-height: 35px !important;
+	}
+
+	.informações h1 {
+		font-size: 4.0rem;
+		font-style: italic;
+		font-weight: bold;
+		margin-left: -10px;
+		text-align: center;
+
+	}
+
+	.informações h1::after {
+		text-align: center;
+
+		content: "HUGO";
+		color: #723480;
+		padding-left: 15px;
+	}
+
+	.informações p {
+		line-height: 35px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.img-perfil img {
+		display: block;
+		margin-bottom: 20px;
+		margin-left: 18%;
+
+	}
+
+	.img-sociais {
+
+		margin-top: -120px;
+		margin-left: 9%;
+		padding: 0;
+		text-align: center;
+		padding-top: 50px;
+
+	}
+
+	.informações p:last-child {
+		margin-top: 30px;
+		width: 100%;
+		font-size: 1.3rem;
+		font-weight: bold;
+		font-style: italic;
+		line-height: 30px !important;
+
+
+
+	}
+
+	hr {
+
+
+		margin-top: 6rem !important;
+		margin-bottom: 6rem !important;
+		border: 0;
+		border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+	}
+
+	section.exp {
+
+		background-color: #f7f8fa;
+		margin: 0 auto;
+		position: initial;
+		width: auto;
+		height: auto;
+		margin-left: 0;
+		padding-top: 100px;
+
+
+	}
+
+	.exp h2 {
+		text-align: center !important;
+		margin-bottom: 60px;
+	}
+
+
+	section.educacao {
+		background-color: #f7f8fa;
+		position: initial;
+		width: auto;
+		height: auto;
+		margin-left: 0;
+
+	}
+
+	.educacao h2 {
+		text-align: center;
+		margin-bottom: 60px;
+	}
+
+	section.skiils {
+
+		background-color: #f7f8fa;
+		position: initial;
+		width: auto;
+		height: auto;
+		margin-left: 0;
+
+	}
+
+	.skiils h2 {
+		text-align: center;
+		margin-bottom: 60px;
+	}
+
+	section.projeto {
+
+		background-color: #f7f8fa;
+		position: initial;
+		width: auto;
+		height: auto;
+		margin-left: 0;
+
+	}
+
+	.projeto h2 {
+		text-align: center;
+		margin-bottom: 60px;
+	}
+
+	.projeto h3 {}
+
+	.projeto #carouselExampleFade img {
+		height: auto !important;
+	}
+
+	.informações span{
+		font-size: 1.3rem;
+		font-weight: bold;
+		font-style: italic;
+		color: #7932a8;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 790px) {
+
+	.informações h1 {
+		font-size: 3.3rem;
+		font-style: italic;
+		font-weight: bold;
+		margin-left: -5px;
+		text-align: center;
+
+	}
+
+	.informações h1::after {
+		text-align: center;
+
+		content: "HUGO";
+		color: #723480;
+		padding-left: 10px;
+	}
+
+	.img-perfil img {
+
+		position: relative;
+		top: 0;
+		left: 20%;
+	}
+
+	.img-perfil img {
+		border-width: 5px;
+		border-color: rgb(120, 120, 120, 0.4);
+		background-origin: padding-box;
+		border-style: solid;
+		display: block;
+		width: 180px !important;
+		height: 180px !important;
+		border-radius: 100% !important;
+		position: relative;
+		top: 0;
+		left: 22% !important;
+
+
+
+
+	}
+	.informações span{
+		font-size: 1.3rem;
+		font-weight: bold;
+		font-style: italic;
+		color: #7932a8;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 20px;
+	}
+
+
+}
+
+@media screen and (max-width: 780px) {
+	.img-perfil img {
+		left: 19% !important;
+	}
+
+	.educacao .alo {
+		margin-left: 1% !important;
+	}
+
+	.educacao .alo2 {
+		margin-left: 1% !important;
+	}
+
+	.informações p i {
+		margin-left: 0 !important;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	.informações h1 {
+		font-size: 2.8rem;
+		font-style: italic;
+		font-weight: bold;
+		margin-left: -5px;
+		text-align: center;
+
+	}
+
+	.informações h1::after {
+		text-align: center;
+
+		content: "HUGO";
+		color: #723480;
+		padding-left: 10px;
+	}
+
+	.informações p {
+		font-size: 1.0rem;
+		line-height: 35px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.img-perfil img {
+		display: block;
+		margin-bottom: 20px;
+		margin-left: 12%;
+
+	}
+
+	.img-perfil img {
+		border-width: 5px;
+		border-color: rgb(120, 120, 120, 0.4);
+		background-origin: padding-box;
+		border-style: solid;
+		display: block;
+		width: 150px !important;
+		height: 150px !important;
+		border-radius: 100% !important;
+		position: relative;
+		top: 0;
+		left: 25% !important;
+
+
+
+	}
+
+	.img-sociais {
+
+		margin-top: -90px;
+		margin-left: 11%;
+		padding: 0;
+		text-align: center;
+		padding-top: 50px;
+
+	}
+
+	.informações p:last-child {
+		margin-top: 30px;
+		width: 100%;
+		font-size: 1.1rem;
+		font-weight: bold;
+		font-style: italic;
+		line-height: 30px !important;
+
+
+
+	}
+
+	.informações p a {
+		font-size: 1.1rem;
+		font-weight: bold;
+		color: #050a36 !important;
+		font-style: italic;
+		font-family: normal !important;
+
+
+	}
+
+	.exp p {
+		font-size: 1.2rem;
+	}
+
+	.educacao h4 {
+		font-size: 1.1rem;
+	}
+
+
+
+}

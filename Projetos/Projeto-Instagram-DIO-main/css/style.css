@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: #0095f6;
+    font-weight: bold;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+    
+.insta-principal{
+    margin: 0 auto;
+   display: flex;
+  justify-content: start;
+   align-items: center;
+   width: 50%;
+  
+}
+.imagem-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;  
+}
+.imagem-phone img{
+   
+ height: 96vh;
+}
+ .login {
+    z-index: 4;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     flex-direction: column;
+     width: 50%;
+     overflow: hidden;
+ }
+ .grupo{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-direction: column;
+     width: 100%;
+     padding: 1.0rem 4.0rem;
+     border: 1px solid #dbdbdb;;
+     
+ }
+.login .texto-principal h2{
+    font-family: 'Fascinate', cursive;
+    margin-bottom: 20px;;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.login .foto-perfil img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border-color: rgba(194, 192, 192, 0.5);
+    background-origin: padding-box;
+    border-style: solid;
+    margin-bottom: 20px;
+}
+.login button{
+    border: 0;
+    border-radius: 2%;
+    cursor: pointer;
+   padding: 8px 20px 8px 20px;
+    background-color:#0095f6; 
+    font-size: 0.8rem;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.login p{
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+   
+}
+
+
+a:first-of-type{
+    margin-bottom: 10px;
+    color: #0095f6;
+}
+
+.continue-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    padding: 0.2rem 4.0rem;
+    border: 1px solid #dbdbdb;
+    margin-top: 5px;  
+}
+.continue-login p {
+    margin-top: 2px;
+    
+}
+
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+
+}
+.login h3{
+    
+    margin: 15px 0;
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+.app img{
+  cursor: pointer;
+    width: 120px;
+    height: auto;
+    padding-left: 7px;
+}
+
+.login button:hover{
+
+    background-color: #114392;
+}
+
+.login a:hover{
+
+    color: #114392;
+}
+/* AQUI ACABA A  PAGINA INDEX.HTML*/
+
+
+
+
+

@@ -1,0 +1,146 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+:root{
+   
+    --preto: black;
+}
+/* aqui comeca a classe .logo-principal*/
+header{
+    width: 100%;
+    background: var(--preto);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   width: 100%;
+  max-width: 1200px;
+}
+
+.logo-principal{
+padding-left: 40px;
+}
+
+.logo-principal img {
+    width: 13vw;
+    height: auto;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 2%;
+}
+
+nav a{
+    margin-left: 15px;
+    color: rgb(199, 197, 197);
+    font-size: 1rem;  
+}
+
+nav a:hover{
+    color: rgb(136, 133, 133);
+} /* aqui acaba a classe .logo-principal container*/
+
+
+/* aqui comeca a section .capa-principal*/
+section .capa-principal{
+    max-width: 1200px;
+    width: 100%;
+}
+.imagem-capa{
+    width: 100%;
+    background-image: linear-gradient(to bottom, transparent 0%, rgb(48, 47, 47) 90%), url("../images/capa-principal.jpg");
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+.texto-1 {
+    padding-top: 18%;
+    padding-left: 2%;
+}
+
+.texto-1 h1{
+    color: white;
+    font-size: 4.0rem;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.texto-1 p{
+    color: white;
+    font-size: 1.0rem;
+    text-align: justify;
+    width: 40%;
+    line-height: 20px;
+    margin-bottom: 20px; 
+}
+
+.botao-capa{
+    padding-left: 2%;
+    margin-top: 15px;
+}
+.botao-capa button{
+    color: white;
+    border: 0;
+    padding:15px 30px;
+    border-radius: 5%;
+    background-color: rgba(22, 21, 21, 0.5);
+    cursor: pointer;
+   transition-property: inherit;
+   transition-duration: 0.8s;
+   transition-delay: 0.3s;
+}
+
+.botao-capa :first-of-type{
+    margin-right: 10px;
+}
+
+.botao-capa :hover{
+    color: black;
+    background-color: rgb(235, 233, 233);
+    -webkit-box-shadow: -3px -9px 16px -6px rgba(2,2,2,0.95); 
+    box-shadow: -3px -9px 16px -6px rgba(2,2,2,0.95);
+
+}
+/* aqui acaba a classe .capa-principal*/
+
+
+/* aqui comeca a classe .filmes*/
+.filmes{
+    background-color: black;
+}
+.filmes h1{
+    color: white;
+    padding: 30px 2%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2.5rem;
+    
+}
+.box-filmes{
+   cursor: pointer;
+    display: block;
+   width: 100%;
+  
+   
+}
+
+/* aqui acaba a classe .filmes/
+
+

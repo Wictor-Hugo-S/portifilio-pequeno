@@ -1,0 +1,100 @@
+/* aqui comeca os @medias reponsividades*/
+
+/* aqui comeca os @medias reponsividades de 1010px*/
+@media (max-width:1010px){
+    
+    .imagem-capa{
+        background-image: linear-gradient(to bottom, transparent 0%, rgb(48, 47, 47) 90%), url("../images/capa-principal.jpg");
+        background-size: contain;
+       
+    }
+    .texto-1 h1{
+        font-size: 3.0rem;
+    }
+}
+/* aqui acaba os @medias reponsividades de 1010px*/
+
+/* aqui comeca os @medias reponsividades de 950px*/
+@media (max-width:950px){
+    .imagem-capa{
+        background-image: linear-gradient(to bottom, transparent 0%, rgb(48, 47, 47) 90%), url("../images/capa-principal.jpg");
+        background-size: cover;
+        height:auto;
+    }
+    .botao-capa button{
+        margin-bottom: 40px;
+    }
+}
+/* aqui acaba os @medias reponsividades de 950px*/
+
+/* aqui comeca os @medias reponsividades de 768px*/
+@media (max-width:768px){
+    .container{
+        flex-direction: column;
+    }
+.logo-principal img {
+    width: 25vw;
+}
+nav {
+    margin-bottom: 20px;
+}
+nav a{
+    font-size: 0.8rem;
+}
+    .texto-1 {
+        padding-top: 18%; 
+    }
+    .texto-1 h1{
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .texto-1 p{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .botao-capa{
+        margin-top: 15px;
+    }
+    .botao-capa button{
+        margin-bottom: 30px;
+        padding:15px 30px;
+        border-radius: 5%;
+    }
+    .filmes h1{
+        font-size: 2rem;
+        text-align: center;
+}
+}
+/* aqui acaba os @medias reponsividades de 768px*/
+
+/* aqui comeca os @medias reponsividades de 570px*/
+@media (max-width:620px){
+    .imagem-capa{
+        padding: 0 2%;
+        background-size: 100% 100%;
+    }
+    .texto-1 h1{   
+        font-size: 2.0rem;
+        margin-bottom: 10px;
+        width: 50%;
+    }
+    .texto-1 p{
+        width: 60%;
+        margin-bottom: 20px; 
+    }
+    .botao-capa{
+        padding-left: 2%;
+        margin-top: 0;
+        padding-bottom: 2%;
+    }
+    .botao-capa button{
+        margin-bottom: 30px;
+        padding:15px 30px;
+    }
+    
+
+}
+/* aqui acaba os @medias reponsividades de 517px*
+
+/* aqui acaba os @medias reponsividades*/

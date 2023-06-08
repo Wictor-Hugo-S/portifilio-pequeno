@@ -1,0 +1,16 @@
+C:\Users\wicto\source\repos\Series\Series\bin\Debug\net5.0\DioSeries.exe
+C:\Users\wicto\source\repos\Series\Series\bin\Debug\net5.0\DioSeries.deps.json
+C:\Users\wicto\source\repos\Series\Series\bin\Debug\net5.0\DioSeries.runtimeconfig.json
+C:\Users\wicto\source\repos\Series\Series\bin\Debug\net5.0\DioSeries.runtimeconfig.dev.json
+C:\Users\wicto\source\repos\Series\Series\bin\Debug\net5.0\DioSeries.dll
+C:\Users\wicto\source\repos\Series\Series\bin\Debug\net5.0\ref\DioSeries.dll
+C:\Users\wicto\source\repos\Series\Series\bin\Debug\net5.0\DioSeries.pdb
+C:\Users\wicto\source\repos\Series\Series\obj\Debug\net5.0\DioSeries.csproj.AssemblyReference.cache
+C:\Users\wicto\source\repos\Series\Series\obj\Debug\net5.0\DioSeries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wicto\source\repos\Series\Series\obj\Debug\net5.0\DioSeries.AssemblyInfoInputs.cache
+C:\Users\wicto\source\repos\Series\Series\obj\Debug\net5.0\DioSeries.AssemblyInfo.cs
+C:\Users\wicto\source\repos\Series\Series\obj\Debug\net5.0\DioSeries.csproj.CoreCompileInputs.cache
+C:\Users\wicto\source\repos\Series\Series\obj\Debug\net5.0\DioSeries.dll
+C:\Users\wicto\source\repos\Series\Series\obj\Debug\net5.0\ref\DioSeries.dll
+C:\Users\wicto\source\repos\Series\Series\obj\Debug\net5.0\DioSeries.pdb
+C:\Users\wicto\source\repos\Series\Series\obj\Debug\net5.0\DioSeries.genruntimeconfig.cache
